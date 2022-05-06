@@ -1,18 +1,18 @@
 {
   "name": "LRTBaseComponent",
   "version": "0.1.0",
-  "summary": "A short description of LRTBaseComponent.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/李荣潭/LRTBaseComponent",
+  "summary": "app 基础组件",
+  "description": "app 基础组件",
+  "homepage": "https://github.com/lrongtan/LRTBaseComponent",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "李荣潭": "844928336@qq.com"
+    "lirongtan": "844928336@qq.com"
   },
   "source": {
-    "git": "https://github.com/李荣潭/LRTBaseComponent.git",
+    "git": "https://github.com/lrongtan/LRTBaseComponent.git",
     "tag": "0.1.0"
   },
   "platforms": {

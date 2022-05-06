@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LRTBaseComponent: 3fbf0137a80384a55c895fa19be2f3b179edcbff
+  LRTBaseComponent: a41897f0ba0e6457f8e65391aadfe04eb83c517f
 
 PODFILE CHECKSUM: 7770376ed38e21e88a0220ce98ecd04c7e56daa4
 
