@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LRTBaseComponent_Example' do
+  pod 'LRTBaseComponent', :path => '../'
+
+  target 'LRTBaseComponent_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
