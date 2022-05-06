@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.description      = "app 基础组件 "
 
-  s.homepage         = 'https://github.com/lirongtan/LRTBaseComponent'
+  s.homepage         = 'https://github.com/lrongtan/LRTBaseComponent'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lirongtan' => '844928336@qq.com' }
-  s.source           = { :git => 'https://github.com/lirongtan/LRTBaseComponent.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/lrongtan/LRTBaseComponent.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
