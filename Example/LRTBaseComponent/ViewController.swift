@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import LRTBaseComponent
 
 class ViewController: UIViewController {
 

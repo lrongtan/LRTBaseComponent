@@ -1,0 +1,6 @@
+framework module LRTBaseComponent {
+  umbrella header "LRTBaseComponent-umbrella.h"
+
+  export *
+  module * { export * }
+}

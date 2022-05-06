@@ -1,0 +1,16 @@
+PODS:
+  - LRTBaseComponent (0.1.0)
+
+DEPENDENCIES:
+  - LRTBaseComponent (from `../`)
+
+EXTERNAL SOURCES:
+  LRTBaseComponent:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LRTBaseComponent: 3fbf0137a80384a55c895fa19be2f3b179edcbff
+
+PODFILE CHECKSUM: 7770376ed38e21e88a0220ce98ecd04c7e56daa4
+
+COCOAPODS: 1.10.1
