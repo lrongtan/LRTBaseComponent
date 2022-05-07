@@ -1,5 +1,9 @@
 PODS:
-  - LRTBaseComponent (0.1.0)
+  - LRTBaseComponent (0.3.0):
+    - LRTBaseComponent/kf (= 0.3.0)
+    - LRTBaseComponent/RegularExpression (= 0.3.0)
+  - LRTBaseComponent/kf (0.3.0)
+  - LRTBaseComponent/RegularExpression (0.3.0)
 
 DEPENDENCIES:
   - LRTBaseComponent (from `../`)
@@ -9,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LRTBaseComponent: a41897f0ba0e6457f8e65391aadfe04eb83c517f
+  LRTBaseComponent: 9546c8acc23a830cfdbe5c05d811c4996ae7ef48
 
 PODFILE CHECKSUM: 7770376ed38e21e88a0220ce98ecd04c7e56daa4
 

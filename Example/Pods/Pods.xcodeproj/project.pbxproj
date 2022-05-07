@@ -7,27 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		087CDD7DFA72C3172D9EF6733D537FFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		1B7C5F3DC01E63578763D7A632A32923 /* Pods-LRTBaseComponent_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3E1735500FFC8DD2C2A4B638D9AB2A /* Pods-LRTBaseComponent_Example-dummy.m */; };
+		32ACE3187E89937022EEA9157075578D /* RegularExpUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5313D9D6FD3205DDC4FDD1B316C1A2 /* RegularExpUtil.swift */; };
+		3677D1B501B694A9B24ECA56D85A54C4 /* UIButton+kf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9C10FA4B66E94E8BF05DAE30EA1F39 /* UIButton+kf.swift */; };
 		4F787E0CACF691B26E15A153782A974D /* Pods-LRTBaseComponent_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA38CD8AC0BA90392ADE2E96501C4C2 /* Pods-LRTBaseComponent_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56251B5A5DC34D906A807515FC5B6C44 /* RegularExpUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED743469225D992D9DAF3A1F037C9CAA /* RegularExpUtil.swift */; };
-		5A855973F7AF30F3E86776D9B400DFBE /* LRTBaseComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FD7C7D6601E27213D40186D4DF989B3 /* LRTBaseComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7641081F23480B1A145944A6D36D0429 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		970F296F8644A57ACD47EDFCB0A64DE5 /* LRTBaseComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F216485ABD6B3188179428AC8DCB6E8 /* LRTBaseComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B79553664E63C765ED8DD0C5C077D5DB /* Pods-LRTBaseComponent_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B3D6DACDC5032F9943473C5910F92D /* Pods-LRTBaseComponent_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6872EFAE5FD9BAFF8F4F8B8CB18077F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E13CCC0171D7884640B5592D2E219682 /* LRTBaseComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7E4D2B615C69E987FFE73AAA82D587 /* LRTBaseComponent-dummy.m */; };
+		C03C7CC6F2FB9C10749EDD91E5BE2650 /* KFWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B587945DE2110A6128890EFE808A591 /* KFWrapper.swift */; };
+		ECDF67E1FA367AED4921758B7613AAD1 /* LRTBaseComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 001A5F1F2E27EB50D924A2400AAA4903 /* LRTBaseComponent-dummy.m */; };
 		F6E0DDAA8CEE2FD24BC40257666B6312 /* Pods-LRTBaseComponent_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 351C9FCB86AB29C9D704DEB981DA4F5A /* Pods-LRTBaseComponent_Tests-dummy.m */; };
 		FE4A7FA762FF43017B14638C60CDBE2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1567F121D780563CD67CD87F3ED633F7 /* PBXContainerItemProxy */ = {
+		0A2E0C38FDFE50439D2B9C7018292CE5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A91636F4999D993651DF2FCC9690B0E1;
 			remoteInfo = "Pods-LRTBaseComponent_Example";
 		};
-		2B66123C7A6F5A52A5B237DE5CA3F213 /* PBXContainerItemProxy */ = {
+		3BFF5F57278410D255D3850736F5BB33 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -37,47 +39,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		001A5F1F2E27EB50D924A2400AAA4903 /* LRTBaseComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LRTBaseComponent-dummy.m"; sourceTree = "<group>"; };
+		0185D423508EBFD3881093FB5DDD83D9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		034D5C9BE830D709B6FEF801126041D1 /* LRTBaseComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LRTBaseComponent.framework; path = LRTBaseComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DB22618C2C61366338CEF9B8386A13 /* Pods-LRTBaseComponent_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LRTBaseComponent_Example.modulemap"; sourceTree = "<group>"; };
-		0899D80D69BF7384FED21DB94120A8E8 /* LRTBaseComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRTBaseComponent.release.xcconfig; sourceTree = "<group>"; };
+		197B7855ADB1C6B9BA1B37270EC1F321 /* LRTBaseComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRTBaseComponent.release.xcconfig; sourceTree = "<group>"; };
+		24A023268B225029E480257194BC4B05 /* LRTBaseComponent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LRTBaseComponent-Info.plist"; sourceTree = "<group>"; };
+		2E9C10FA4B66E94E8BF05DAE30EA1F39 /* UIButton+kf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIButton+kf.swift"; sourceTree = "<group>"; };
 		3397EB056CC3652E98A9069E6EEB8CE7 /* Pods-LRTBaseComponent_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LRTBaseComponent_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		351C9FCB86AB29C9D704DEB981DA4F5A /* Pods-LRTBaseComponent_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LRTBaseComponent_Tests-dummy.m"; sourceTree = "<group>"; };
 		3647F21D12B3602D109BF15B38769784 /* Pods-LRTBaseComponent_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LRTBaseComponent_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		467D57B9E7F3F13C011F77C2F38EE7ED /* Pods-LRTBaseComponent_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRTBaseComponent_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4D6D44A21625521BA25921E1BACD153A /* LRTBaseComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LRTBaseComponent.modulemap; sourceTree = "<group>"; };
-		4FD7C7D6601E27213D40186D4DF989B3 /* LRTBaseComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRTBaseComponent-umbrella.h"; sourceTree = "<group>"; };
-		5130229F684C01E3B35A6B0B6F614E39 /* LRTBaseComponent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LRTBaseComponent-Info.plist"; sourceTree = "<group>"; };
+		4F216485ABD6B3188179428AC8DCB6E8 /* LRTBaseComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRTBaseComponent-umbrella.h"; sourceTree = "<group>"; };
 		6AA38CD8AC0BA90392ADE2E96501C4C2 /* Pods-LRTBaseComponent_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LRTBaseComponent_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6D5F349A31B89936BF30C3D31B194CE5 /* Pods-LRTBaseComponent_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRTBaseComponent_Tests-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		73B0C0BCD593784DD0274A86BE0C31F0 /* Pods-LRTBaseComponent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRTBaseComponent_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7919705C24E17A721758425C212E51A1 /* Pods_LRTBaseComponent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LRTBaseComponent_Example.framework; path = "Pods-LRTBaseComponent_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B587945DE2110A6128890EFE808A591 /* KFWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KFWrapper.swift; sourceTree = "<group>"; };
 		874436740ECBAC9CED54C8C8E2028FBE /* Pods-LRTBaseComponent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRTBaseComponent_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		915A6BBD49CA597EE71B005F34EA5CC9 /* Pods_LRTBaseComponent_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LRTBaseComponent_Tests.framework; path = "Pods-LRTBaseComponent_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C7E4D2B615C69E987FFE73AAA82D587 /* LRTBaseComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LRTBaseComponent-dummy.m"; sourceTree = "<group>"; };
+		9AA536375695786065A46634AF0DC722 /* LRTBaseComponent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LRTBaseComponent.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7EE90BD5CDFE63FF15C734423983932 /* LRTBaseComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LRTBaseComponent.modulemap; sourceTree = "<group>"; };
+		B0EB1CFC2AB83AA043AA050CF504C529 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		BD7FF927BBD51F6736673CA5AE95F2C4 /* Pods-LRTBaseComponent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRTBaseComponent_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BECCD4B36522A8E298F710B164634C64 /* Pods-LRTBaseComponent_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LRTBaseComponent_Tests.modulemap"; sourceTree = "<group>"; };
 		BFBC61A2D8B972FDC419137964420AAE /* Pods-LRTBaseComponent_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRTBaseComponent_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C2A7F762D754ED94EC9BA23F5E1CB922 /* LRTBaseComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRTBaseComponent.debug.xcconfig; sourceTree = "<group>"; };
-		C738E2BA838DF8E1671946D52B50D275 /* LRTBaseComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRTBaseComponent-prefix.pch"; sourceTree = "<group>"; };
 		CB8978F6F33AEB0C2D02612464B9AC9C /* Pods-LRTBaseComponent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRTBaseComponent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CC3E1735500FFC8DD2C2A4B638D9AB2A /* Pods-LRTBaseComponent_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LRTBaseComponent_Example-dummy.m"; sourceTree = "<group>"; };
 		CEFDA72F127D44F6DF22B42D10B57F6E /* Pods-LRTBaseComponent_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRTBaseComponent_Example-Info.plist"; sourceTree = "<group>"; };
-		D06CB3D8599754018C7E689A5F764658 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		D16BE594E9BB0FFAD25D3DE69FC54F8E /* LRTBaseComponent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LRTBaseComponent.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D4B3D6DACDC5032F9943473C5910F92D /* Pods-LRTBaseComponent_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LRTBaseComponent_Example-umbrella.h"; sourceTree = "<group>"; };
 		D4F675A9DCEF9F2AD6FAD3D4CB93877D /* Pods-LRTBaseComponent_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LRTBaseComponent_Example-frameworks.sh"; sourceTree = "<group>"; };
-		ED743469225D992D9DAF3A1F037C9CAA /* RegularExpUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegularExpUtil.swift; path = LRTBaseComponent/Classes/RegularExpUtil.swift; sourceTree = "<group>"; };
-		F69BFE79C485CEC9429059101D45C96B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DEFBDB56BD7D0F37F06EA93C6466837A /* LRTBaseComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRTBaseComponent-prefix.pch"; sourceTree = "<group>"; };
+		DF5313D9D6FD3205DDC4FDD1B316C1A2 /* RegularExpUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RegularExpUtil.swift; sourceTree = "<group>"; };
+		E6EB1852F56EEDDE9A2DD920675ABC1C /* LRTBaseComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRTBaseComponent.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5E0A3BF437DF9C5D88C0242976178CF0 /* Frameworks */ = {
+		653E29919E44A95392E817DB2C71B4EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6872EFAE5FD9BAFF8F4F8B8CB18077F /* Foundation.framework in Frameworks */,
+				087CDD7DFA72C3172D9EF6733D537FFF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,15 +104,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C1C2FBC6AD6F6F482C3F69151BB37AD /* LRTBaseComponent */ = {
+		00E59B05F86201A75B0D0BB209E3476F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				ED743469225D992D9DAF3A1F037C9CAA /* RegularExpUtil.swift */,
-				328CC7299D32E33CA368D09799D2AE15 /* Pod */,
-				505C3FFB96D084BB2DA494A280D9586A /* Support Files */,
+				472B654D684EC0D1CB4EFCD209C52BFC /* LRTBaseComponent */,
 			);
-			name = LRTBaseComponent;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		0D57DA6B21DCB99B27D7DE29D55B5C53 /* Products */ = {
@@ -138,26 +139,38 @@
 			path = "Target Support Files/Pods-LRTBaseComponent_Example";
 			sourceTree = "<group>";
 		};
-		328CC7299D32E33CA368D09799D2AE15 /* Pod */ = {
+		22FCE3DA2B6997DB191187267CA38E48 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D06CB3D8599754018C7E689A5F764658 /* LICENSE */,
-				D16BE594E9BB0FFAD25D3DE69FC54F8E /* LRTBaseComponent.podspec */,
-				F69BFE79C485CEC9429059101D45C96B /* README.md */,
+				0185D423508EBFD3881093FB5DDD83D9 /* LICENSE */,
+				9AA536375695786065A46634AF0DC722 /* LRTBaseComponent.podspec */,
+				B0EB1CFC2AB83AA043AA050CF504C529 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		505C3FFB96D084BB2DA494A280D9586A /* Support Files */ = {
+		472B654D684EC0D1CB4EFCD209C52BFC /* LRTBaseComponent */ = {
 			isa = PBXGroup;
 			children = (
-				4D6D44A21625521BA25921E1BACD153A /* LRTBaseComponent.modulemap */,
-				9C7E4D2B615C69E987FFE73AAA82D587 /* LRTBaseComponent-dummy.m */,
-				5130229F684C01E3B35A6B0B6F614E39 /* LRTBaseComponent-Info.plist */,
-				C738E2BA838DF8E1671946D52B50D275 /* LRTBaseComponent-prefix.pch */,
-				4FD7C7D6601E27213D40186D4DF989B3 /* LRTBaseComponent-umbrella.h */,
-				C2A7F762D754ED94EC9BA23F5E1CB922 /* LRTBaseComponent.debug.xcconfig */,
-				0899D80D69BF7384FED21DB94120A8E8 /* LRTBaseComponent.release.xcconfig */,
+				FC087B865F2499F501CDED1CADFEE5D4 /* kf */,
+				22FCE3DA2B6997DB191187267CA38E48 /* Pod */,
+				88CE09A15734B45211579282E59F20EB /* RegularExpression */,
+				50D2FCB16663043CC3B8685612DF2501 /* Support Files */,
+			);
+			name = LRTBaseComponent;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		50D2FCB16663043CC3B8685612DF2501 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7EE90BD5CDFE63FF15C734423983932 /* LRTBaseComponent.modulemap */,
+				001A5F1F2E27EB50D924A2400AAA4903 /* LRTBaseComponent-dummy.m */,
+				24A023268B225029E480257194BC4B05 /* LRTBaseComponent-Info.plist */,
+				DEFBDB56BD7D0F37F06EA93C6466837A /* LRTBaseComponent-prefix.pch */,
+				4F216485ABD6B3188179428AC8DCB6E8 /* LRTBaseComponent-umbrella.h */,
+				E6EB1852F56EEDDE9A2DD920675ABC1C /* LRTBaseComponent.debug.xcconfig */,
+				197B7855ADB1C6B9BA1B37270EC1F321 /* LRTBaseComponent.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/LRTBaseComponent";
@@ -171,12 +184,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7C87EEAD7C270CBF17B525D258249678 /* Development Pods */ = {
+		88CE09A15734B45211579282E59F20EB /* RegularExpression */ = {
 			isa = PBXGroup;
 			children = (
-				0C1C2FBC6AD6F6F482C3F69151BB37AD /* LRTBaseComponent */,
+				DF5313D9D6FD3205DDC4FDD1B316C1A2 /* RegularExpUtil.swift */,
 			);
-			name = "Development Pods";
+			name = RegularExpression;
+			path = LRTBaseComponent/Classes/RegularExpression;
 			sourceTree = "<group>";
 		};
 		B1266998F472C6F3355E65A637B3907A /* Pods-LRTBaseComponent_Tests */ = {
@@ -199,7 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				7C87EEAD7C270CBF17B525D258249678 /* Development Pods */,
+				00E59B05F86201A75B0D0BB209E3476F /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				0D57DA6B21DCB99B27D7DE29D55B5C53 /* Products */,
 				DB4761917D44C2103CFDD0860376EB37 /* Targets Support Files */,
@@ -223,22 +237,32 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		FC087B865F2499F501CDED1CADFEE5D4 /* kf */ = {
+			isa = PBXGroup;
+			children = (
+				7B587945DE2110A6128890EFE808A591 /* KFWrapper.swift */,
+				2E9C10FA4B66E94E8BF05DAE30EA1F39 /* UIButton+kf.swift */,
+			);
+			name = kf;
+			path = LRTBaseComponent/Classes/kf;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1D9E58DEB452E07B165F1F9FE00A5BE6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				970F296F8644A57ACD47EDFCB0A64DE5 /* LRTBaseComponent-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		20F3FB8A96F9420910220562746C5907 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B79553664E63C765ED8DD0C5C077D5DB /* Pods-LRTBaseComponent_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		381EB0DE616B48D956AB0136104EE3B8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A855973F7AF30F3E86776D9B400DFBE /* LRTBaseComponent-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,12 +279,12 @@
 /* Begin PBXNativeTarget section */
 		04F5D6EA2E516E5F8A400BEFB7622DEC /* LRTBaseComponent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94ECDF5FD8CB34D837AE53630498A471 /* Build configuration list for PBXNativeTarget "LRTBaseComponent" */;
+			buildConfigurationList = C60280DCDB9362FE55D2CF886C5E858F /* Build configuration list for PBXNativeTarget "LRTBaseComponent" */;
 			buildPhases = (
-				381EB0DE616B48D956AB0136104EE3B8 /* Headers */,
-				370327A088F476AABCC3DAD4B7742154 /* Sources */,
-				5E0A3BF437DF9C5D88C0242976178CF0 /* Frameworks */,
-				46341344A3D5A3F6AEBF41F50C6B7800 /* Resources */,
+				1D9E58DEB452E07B165F1F9FE00A5BE6 /* Headers */,
+				B813212CFE39F1AB55547E6E7CC63351 /* Sources */,
+				653E29919E44A95392E817DB2C71B4EF /* Frameworks */,
+				319818560F176B6E068811AD775A8CCF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -283,7 +307,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				90E72DCED3589EE0C52B061B748268FF /* PBXTargetDependency */,
+				7A60112572DF51374FF546B609BC85F0 /* PBXTargetDependency */,
 			);
 			name = "Pods-LRTBaseComponent_Tests";
 			productName = "Pods-LRTBaseComponent_Tests";
@@ -302,7 +326,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8A01D0DC9CDF3BFE9FDBEBFD2EBF0E85 /* PBXTargetDependency */,
+				7AD6EF79E2B486C8F1E2E56F9D194036 /* PBXTargetDependency */,
 			);
 			name = "Pods-LRTBaseComponent_Example";
 			productName = "Pods-LRTBaseComponent_Example";
@@ -346,7 +370,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46341344A3D5A3F6AEBF41F50C6B7800 /* Resources */ = {
+		319818560F176B6E068811AD775A8CCF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,15 +395,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		370327A088F476AABCC3DAD4B7742154 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E13CCC0171D7884640B5592D2E219682 /* LRTBaseComponent-dummy.m in Sources */,
-				56251B5A5DC34D906A807515FC5B6C44 /* RegularExpUtil.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		868716585E6A589F1A4A11A694E2BCDE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -388,20 +403,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B813212CFE39F1AB55547E6E7CC63351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03C7CC6F2FB9C10749EDD91E5BE2650 /* KFWrapper.swift in Sources */,
+				ECDF67E1FA367AED4921758B7613AAD1 /* LRTBaseComponent-dummy.m in Sources */,
+				32ACE3187E89937022EEA9157075578D /* RegularExpUtil.swift in Sources */,
+				3677D1B501B694A9B24ECA56D85A54C4 /* UIButton+kf.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8A01D0DC9CDF3BFE9FDBEBFD2EBF0E85 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LRTBaseComponent;
-			target = 04F5D6EA2E516E5F8A400BEFB7622DEC /* LRTBaseComponent */;
-			targetProxy = 2B66123C7A6F5A52A5B237DE5CA3F213 /* PBXContainerItemProxy */;
-		};
-		90E72DCED3589EE0C52B061B748268FF /* PBXTargetDependency */ = {
+		7A60112572DF51374FF546B609BC85F0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LRTBaseComponent_Example";
 			target = A91636F4999D993651DF2FCC9690B0E1 /* Pods-LRTBaseComponent_Example */;
-			targetProxy = 1567F121D780563CD67CD87F3ED633F7 /* PBXContainerItemProxy */;
+			targetProxy = 0A2E0C38FDFE50439D2B9C7018292CE5 /* PBXContainerItemProxy */;
+		};
+		7AD6EF79E2B486C8F1E2E56F9D194036 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LRTBaseComponent;
+			target = 04F5D6EA2E516E5F8A400BEFB7622DEC /* LRTBaseComponent */;
+			targetProxy = 3BFF5F57278410D255D3850736F5BB33 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -505,9 +531,9 @@
 			};
 			name = Release;
 		};
-		6002F0F33A71A4335AAF96E4211AA51D /* Debug */ = {
+		58E74905C92B1B9F72B97424B9A9879E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2A7F762D754ED94EC9BA23F5E1CB922 /* LRTBaseComponent.debug.xcconfig */;
+			baseConfigurationReference = E6EB1852F56EEDDE9A2DD920675ABC1C /* LRTBaseComponent.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -567,9 +593,9 @@
 			};
 			name = Debug;
 		};
-		AA3C103AEA42E55A5F6C2FF04F9AE1CB /* Release */ = {
+		A7CA52BFEFCBD0A132462E1258DAB591 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0899D80D69BF7384FED21DB94120A8E8 /* LRTBaseComponent.release.xcconfig */;
+			baseConfigurationReference = 197B7855ADB1C6B9BA1B37270EC1F321 /* LRTBaseComponent.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -755,11 +781,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		94ECDF5FD8CB34D837AE53630498A471 /* Build configuration list for PBXNativeTarget "LRTBaseComponent" */ = {
+		C60280DCDB9362FE55D2CF886C5E858F /* Build configuration list for PBXNativeTarget "LRTBaseComponent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6002F0F33A71A4335AAF96E4211AA51D /* Debug */,
-				AA3C103AEA42E55A5F6C2FF04F9AE1CB /* Release */,
+				58E74905C92B1B9F72B97424B9A9879E /* Debug */,
+				A7CA52BFEFCBD0A132462E1258DAB591 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

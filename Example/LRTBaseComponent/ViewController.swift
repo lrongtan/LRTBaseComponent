@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         demo()
+        kf_demo()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -26,6 +27,11 @@ class ViewController: UIViewController {
         print("中英文 效验====== 结果===",RegularExpUtil.isCE(value: "的几哈见客户给dddd"))
         
         print("中英文数字正则 效验====== 结果===",RegularExpUtil.isCEN(value: "ddfgg3333a定积分"))
+    }
+    
+    private func kf_demo() {
+        let btn = UIButton()
+        btn.kf.kf_run()
     }
 }
 

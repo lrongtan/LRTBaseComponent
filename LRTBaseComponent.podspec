@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LRTBaseComponent'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'app 基础组件'
 
 # This description is used to generate tags and improve search results.
@@ -27,6 +27,14 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
+  
+  s.subspec 'kf' do |k|
+      k.source_files = 'LRTBaseComponent/Classes/kf/*'
+  end
+  
+  s.subspec 'RegularExpression' do |r|
+      r.source_files = 'LRTBaseComponent/Classes/RegularExpression/*'
+  end
 
   s.source_files = 'LRTBaseComponent/Classes/**/*'
   
