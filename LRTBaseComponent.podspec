@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LRTBaseComponent'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = 'app 基础组件'
 
 # This description is used to generate tags and improve search results.
@@ -34,6 +34,11 @@ Pod::Spec.new do |s|
   
   s.subspec 'RegularExpression' do |r|
       r.source_files = 'LRTBaseComponent/Classes/RegularExpression/*'
+  end
+
+  s.subspec 'HUD' do |h|
+      h.source_files = 'LRTBaseComponent/Classes/HUD/*'
+      h.dependency 'MBProgressHUD', '1.2.0'
   end
 
   s.source_files = 'LRTBaseComponent/Classes/**/*'

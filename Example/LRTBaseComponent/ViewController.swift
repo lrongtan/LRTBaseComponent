@@ -27,6 +27,7 @@ class ViewController: UIViewController {
         print("中英文 效验====== 结果===",RegularExpUtil.isCE(value: "的几哈见客户给dddd"))
         
         print("中英文数字正则 效验====== 结果===",RegularExpUtil.isCEN(value: "ddfgg3333a定积分"))
+        GlobalProgressHUD.showHUDText(title: "测试调用方法")
     }
     
     private func kf_demo() {

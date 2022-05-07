@@ -1,19 +1,28 @@
 PODS:
-  - LRTBaseComponent (0.3.0):
-    - LRTBaseComponent/kf (= 0.3.0)
-    - LRTBaseComponent/RegularExpression (= 0.3.0)
-  - LRTBaseComponent/kf (0.3.0)
-  - LRTBaseComponent/RegularExpression (0.3.0)
+  - LRTBaseComponent (0.4.0):
+    - LRTBaseComponent/HUD (= 0.4.0)
+    - LRTBaseComponent/kf (= 0.4.0)
+    - LRTBaseComponent/RegularExpression (= 0.4.0)
+  - LRTBaseComponent/HUD (0.4.0):
+    - MBProgressHUD (= 1.2.0)
+  - LRTBaseComponent/kf (0.4.0)
+  - LRTBaseComponent/RegularExpression (0.4.0)
+  - MBProgressHUD (1.2.0)
 
 DEPENDENCIES:
   - LRTBaseComponent (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
 
 EXTERNAL SOURCES:
   LRTBaseComponent:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LRTBaseComponent: 9546c8acc23a830cfdbe5c05d811c4996ae7ef48
+  LRTBaseComponent: 4e35dc0dd4e162803c0818be820d51cc37cb2782
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
 
 PODFILE CHECKSUM: 7770376ed38e21e88a0220ce98ecd04c7e56daa4
 

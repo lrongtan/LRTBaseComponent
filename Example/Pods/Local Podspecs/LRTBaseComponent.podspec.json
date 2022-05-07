@@ -1,6 +1,6 @@
 {
   "name": "LRTBaseComponent",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "summary": "app 基础组件",
   "description": "app 基础组件",
   "homepage": "https://github.com/lrongtan/LRTBaseComponent",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/lrongtan/LRTBaseComponent.git",
-    "tag": "0.3.0"
+    "tag": "0.4.0"
   },
   "platforms": {
     "ios": "9.0"
@@ -27,6 +27,15 @@
     {
       "name": "RegularExpression",
       "source_files": "LRTBaseComponent/Classes/RegularExpression/*"
+    },
+    {
+      "name": "HUD",
+      "source_files": "LRTBaseComponent/Classes/HUD/*",
+      "dependencies": {
+        "MBProgressHUD": [
+          "1.2.0"
+        ]
+      }
     }
   ]
 }
