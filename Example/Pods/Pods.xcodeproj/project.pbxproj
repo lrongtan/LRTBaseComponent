@@ -7,52 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		070E21921BDFA01AEC76C27F2C6C6376 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = FC7C54894F0D982511B53767CE31EBF1 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D39E571F542FD1AC03369199A0AD77B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D0673598A7E5DF7CA62C77BC9EF5284 /* Assets.xcassets */; };
 		2016C92D2BAA77043268299A505FE60C /* Pods-LRTBaseComponent_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3E1735500FFC8DD2C2A4B638D9AB2A /* Pods-LRTBaseComponent_Example-dummy.m */; };
-		21C600278DFBAC170C92FA71391EE799 /* RegularExpUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10E4F5DFA969D6BCF483FC686B525CF /* RegularExpUtil.swift */; };
-		2890CD8B4C9CE55B03276726898A9854 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */; };
-		2F1C553846BF75224BA0C4E56359E8A4 /* GlobalProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBFCCA44844A1B102EFE633EA0164A /* GlobalProgressHUD.swift */; };
-		34E0F4060BE04D6D63BE98373E5B9C60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7615942A398F0E3D503C9F26C11ADA /* Foundation.framework */; };
+		30785F5EB447FDFCB5EEE9872647C9C4 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F31C808188F0318B8D5A16F065156F9 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		372FDB164CC6F09A825C5ED6E1BA76B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1B74A9F1E73D518A5D5F76E721DB21 /* CoreGraphics.framework */; };
+		3A62EC1CD3560C0242F27C146D976EA8 /* Assets+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB4558547CBAEAD442885832D9D8527 /* Assets+Generated.swift */; };
 		4F787E0CACF691B26E15A153782A974D /* Pods-LRTBaseComponent_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA38CD8AC0BA90392ADE2E96501C4C2 /* Pods-LRTBaseComponent_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55CEF72C35AD61465A888C751CBAB144 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1B74A9F1E73D518A5D5F76E721DB21 /* CoreGraphics.framework */; };
-		6BC49B6E7E4819B44D505C7F4DAE579B /* LRTBaseComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBC0A35FF3020F3217A051566F5EC5A /* LRTBaseComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75FC89D2FD6BBA52384549554F45927E /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F31C808188F0318B8D5A16F065156F9 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58F49F1EF7D6338AF240B9045FF73189 /* LRTBaseComponent.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BB25FBE2CDA8495F63624192C95A94DF /* LRTBaseComponent.bundle */; };
+		62D4DDE768157A964BBE83ED41FAC767 /* LRTBaseComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 544B6B99C9C8DCF3CA18FB58F6740AD2 /* LRTBaseComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7641081F23480B1A145944A6D36D0429 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7615942A398F0E3D503C9F26C11ADA /* Foundation.framework */; };
-		80AE7748E24D8A00EF7966CF787B5E95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7615942A398F0E3D503C9F26C11ADA /* Foundation.framework */; };
-		8A7FDDCCF50B02CE0105B52B4CA29FD7 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECF19F2C17178E7145FE1DBF7DE5B7D /* MBProgressHUD-dummy.m */; };
+		9050EC29735A5E535234BF7B1CDEEC82 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */; };
+		927361600C7EB10DCA350ABAA4E0E254 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56452E004419B9A637AC8D1455D07312 /* MBProgressHUD.framework */; };
 		9550AF815A130F1DF1E2DDAD06F87A6E /* Pods-LRTBaseComponent_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B3D6DACDC5032F9943473C5910F92D /* Pods-LRTBaseComponent_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AAC7C1DBB8597B8EA3CDE6EC9253E20 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56452E004419B9A637AC8D1455D07312 /* MBProgressHUD.framework */; };
+		9A2BCEFFA0C6662F9A4E0E700EDAC3A2 /* UIButton+kf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493F0227F1BCC3164440EAD618250911 /* UIButton+kf.swift */; };
+		AF49DFCE80193B406A2EA65AB27B87C1 /* LRTBaseComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF550D30103F9405186BDDEFD059011 /* LRTBaseComponent-dummy.m */; };
 		BDF44F4E7E42A6C5856E175DED9908B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7615942A398F0E3D503C9F26C11ADA /* Foundation.framework */; };
-		E380B0EEF026D78A024E9E7564EB3B3D /* UIButton+kf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF0A46E140147CD948C3F30504E7FDA /* UIButton+kf.swift */; };
-		EF53B3412CD1C82A45D3E6DA4F05B548 /* KFWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219107CBFD48CB106BDE250A33756D54 /* KFWrapper.swift */; };
-		F57AC36AC761309E5BF3A9D2D04D87AF /* LRTBaseComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC7B99FD8A1255231DB48CA3260358E /* LRTBaseComponent-dummy.m */; };
+		C14F18708A05BB2DDFC3D8978CB0E07A /* RegularExpUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45490DAED0DFED6CECCCF1877BEA448 /* RegularExpUtil.swift */; };
+		CA69E312AAAB89FF39AA9AC71C2CA54F /* icon_refund.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD823CA9D1BFEBB99052D6ACAD6F578 /* icon_refund.png */; };
+		D99B3A543071B30F34BB216C6D9B3EE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7615942A398F0E3D503C9F26C11ADA /* Foundation.framework */; };
+		D9B992EEB18258312EAFFC7DFA8C98BD /* KFWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608A920C949DCDAC5F8D6A82737BE325 /* KFWrapper.swift */; };
+		E0BE16561EF87F5C8C430DB3BD546BFF /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = FC7C54894F0D982511B53767CE31EBF1 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3AFB4F29A36CB22E0603F53095F5F95 /* GlobalProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A4D6697DD9DFF68A20BCCD80DAD1A2 /* GlobalProgressHUD.swift */; };
+		EAB78FE795E2D8B09B7AB599A74A2EE8 /* resources in Resources */ = {isa = PBXBuildFile; fileRef = 195EB44776B75436B352E35CE75867DB /* resources */; };
+		F2675DBEFAEF0BFCF346F697F0CE5CC1 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECF19F2C17178E7145FE1DBF7DE5B7D /* MBProgressHUD-dummy.m */; };
+		F534D8C948D7F829D0D74D55FE381086 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8AE761A6233169744AE7BAC2257114 /* QuartzCore.framework */; };
 		F6E0DDAA8CEE2FD24BC40257666B6312 /* Pods-LRTBaseComponent_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 351C9FCB86AB29C9D704DEB981DA4F5A /* Pods-LRTBaseComponent_Tests-dummy.m */; };
-		FFD572451BA5B37D22501BD5926B9305 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8AE761A6233169744AE7BAC2257114 /* QuartzCore.framework */; };
+		F8799691B7C04EDE895031AC787DE777 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7615942A398F0E3D503C9F26C11ADA /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A24F25D8DCB10C9766A6595BB37EF79F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
-			remoteInfo = MBProgressHUD;
-		};
-		B313F2BA795DCB63504DDBD4DE1FF9D6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
-			remoteInfo = MBProgressHUD;
-		};
-		C1E2A3781F27560030744C24BE1D1B12 /* PBXContainerItemProxy */ = {
+		09E2C0A88DDFD960ACA98ECC6AE2AFAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A91636F4999D993651DF2FCC9690B0E1;
 			remoteInfo = "Pods-LRTBaseComponent_Example";
 		};
-		E5B8DB5A18B9EA45D168578A44B5B0D0 /* PBXContainerItemProxy */ = {
+		36032B39C6EB2BCCD95E27A74048103E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
+		45C1F0BAB463CD06E1622D05FDA88F5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
+		6EAB44FDF6B69094D148438C445D9AC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94268AD089AFABF32315F259E5B1203E;
+			remoteInfo = "LRTBaseComponent-LRTBaseComponent";
+		};
+		8EA37EA07D1A7CCC2D7A6D008441643E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -62,58 +74,81 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		034D5C9BE830D709B6FEF801126041D1 /* LRTBaseComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LRTBaseComponent.framework; path = LRTBaseComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		034D5C9BE830D709B6FEF801126041D1 /* LRTBaseComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LRTBaseComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DB22618C2C61366338CEF9B8386A13 /* Pods-LRTBaseComponent_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LRTBaseComponent_Example.modulemap"; sourceTree = "<group>"; };
-		0ADBFCCA44844A1B102EFE633EA0164A /* GlobalProgressHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GlobalProgressHUD.swift; sourceTree = "<group>"; };
 		0C1B74A9F1E73D518A5D5F76E721DB21 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		12C02234E86B27ADE4AD63EF6CF5CE09 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		15A664004DDF9C4E5FC3516E9851EF96 /* LRTBaseComponent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LRTBaseComponent-Info.plist"; sourceTree = "<group>"; };
-		1A4DEBCC89D67EE1E29AAC7B80C0AA68 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		219107CBFD48CB106BDE250A33756D54 /* KFWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KFWrapper.swift; sourceTree = "<group>"; };
-		2B317BAACF04708A301A0FC9282636AA /* LRTBaseComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LRTBaseComponent.modulemap; sourceTree = "<group>"; };
+		0F664D02283E14804EC089FF0885BDB3 /* LRTBaseComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LRTBaseComponent.modulemap; sourceTree = "<group>"; };
+		195EB44776B75436B352E35CE75867DB /* resources */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = resources; path = LRTBaseComponent/Assets/resources; sourceTree = "<group>"; };
+		1D843EB00270C1A6372BC60DB201FDE0 /* LRTBaseComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRTBaseComponent.release.xcconfig; sourceTree = "<group>"; };
+		2023B687B3793C59413C512B3E5CD9A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2D0673598A7E5DF7CA62C77BC9EF5284 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3397EB056CC3652E98A9069E6EEB8CE7 /* Pods-LRTBaseComponent_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LRTBaseComponent_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		351C9FCB86AB29C9D704DEB981DA4F5A /* Pods-LRTBaseComponent_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LRTBaseComponent_Tests-dummy.m"; sourceTree = "<group>"; };
 		3647F21D12B3602D109BF15B38769784 /* Pods-LRTBaseComponent_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LRTBaseComponent_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3EBC0A35FF3020F3217A051566F5EC5A /* LRTBaseComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRTBaseComponent-umbrella.h"; sourceTree = "<group>"; };
 		467D57B9E7F3F13C011F77C2F38EE7ED /* Pods-LRTBaseComponent_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRTBaseComponent_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4E1FF659FFA424231DE397C829CFA51C /* LRTBaseComponent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LRTBaseComponent.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		493F0227F1BCC3164440EAD618250911 /* UIButton+kf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIButton+kf.swift"; sourceTree = "<group>"; };
 		4ECF19F2C17178E7145FE1DBF7DE5B7D /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		53025FD44EEDEB9CEAE854B0AE31CB82 /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		544B6B99C9C8DCF3CA18FB58F6740AD2 /* LRTBaseComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRTBaseComponent-umbrella.h"; sourceTree = "<group>"; };
 		56452E004419B9A637AC8D1455D07312 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CF0A46E140147CD948C3F30504E7FDA /* UIButton+kf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIButton+kf.swift"; sourceTree = "<group>"; };
 		5E221A5AAC45302AF396416395265FFD /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
 		5F31C808188F0318B8D5A16F065156F9 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		608A920C949DCDAC5F8D6A82737BE325 /* KFWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KFWrapper.swift; sourceTree = "<group>"; };
 		67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		6A7615942A398F0E3D503C9F26C11ADA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6AA38CD8AC0BA90392ADE2E96501C4C2 /* Pods-LRTBaseComponent_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LRTBaseComponent_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6CB4558547CBAEAD442885832D9D8527 /* Assets+Generated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Assets+Generated.swift"; sourceTree = "<group>"; };
 		6CEB62E30C5BAB8D4A2A435A4D4DA33A /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
 		6D5F349A31B89936BF30C3D31B194CE5 /* Pods-LRTBaseComponent_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRTBaseComponent_Tests-Info.plist"; sourceTree = "<group>"; };
-		6DB01D22EAADEDFAB6F82437BD9DC35F /* LRTBaseComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRTBaseComponent.debug.xcconfig; sourceTree = "<group>"; };
 		71586C258C9A4BA21A453C698866EBC7 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		71A4D6697DD9DFF68A20BCCD80DAD1A2 /* GlobalProgressHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GlobalProgressHUD.swift; sourceTree = "<group>"; };
 		73B0C0BCD593784DD0274A86BE0C31F0 /* Pods-LRTBaseComponent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRTBaseComponent_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7919705C24E17A721758425C212E51A1 /* Pods_LRTBaseComponent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LRTBaseComponent_Example.framework; path = "Pods-LRTBaseComponent_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7919705C24E17A721758425C212E51A1 /* Pods_LRTBaseComponent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LRTBaseComponent_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E89A5476FF639D026F193794D495E9A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		874436740ECBAC9CED54C8C8E2028FBE /* Pods-LRTBaseComponent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRTBaseComponent_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DA7696C9AFECBD9CB4475DEF2918AC5 /* LRTBaseComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRTBaseComponent.release.xcconfig; sourceTree = "<group>"; };
-		915A6BBD49CA597EE71B005F34EA5CC9 /* Pods_LRTBaseComponent_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LRTBaseComponent_Tests.framework; path = "Pods-LRTBaseComponent_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		932FA2BAAB44F890ABB939F00D11E453 /* LRTBaseComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRTBaseComponent-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AEC7B99FD8A1255231DB48CA3260358E /* LRTBaseComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LRTBaseComponent-dummy.m"; sourceTree = "<group>"; };
+		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		915A6BBD49CA597EE71B005F34EA5CC9 /* Pods_LRTBaseComponent_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LRTBaseComponent_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAD823CA9D1BFEBB99052D6ACAD6F578 /* icon_refund.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = icon_refund.png; sourceTree = "<group>"; };
+		BB25FBE2CDA8495F63624192C95A94DF /* LRTBaseComponent.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LRTBaseComponent.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD7FF927BBD51F6736673CA5AE95F2C4 /* Pods-LRTBaseComponent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRTBaseComponent_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BECCD4B36522A8E298F710B164634C64 /* Pods-LRTBaseComponent_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LRTBaseComponent_Tests.modulemap"; sourceTree = "<group>"; };
 		BFBC61A2D8B972FDC419137964420AAE /* Pods-LRTBaseComponent_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRTBaseComponent_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C10E4F5DFA969D6BCF483FC686B525CF /* RegularExpUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RegularExpUtil.swift; sourceTree = "<group>"; };
+		C67BAF891A87287248F746B815782D79 /* LRTBaseComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRTBaseComponent-prefix.pch"; sourceTree = "<group>"; };
 		CB8978F6F33AEB0C2D02612464B9AC9C /* Pods-LRTBaseComponent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRTBaseComponent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CC3E1735500FFC8DD2C2A4B638D9AB2A /* Pods-LRTBaseComponent_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LRTBaseComponent_Example-dummy.m"; sourceTree = "<group>"; };
 		CEFDA72F127D44F6DF22B42D10B57F6E /* Pods-LRTBaseComponent_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRTBaseComponent_Example-Info.plist"; sourceTree = "<group>"; };
 		D4B3D6DACDC5032F9943473C5910F92D /* Pods-LRTBaseComponent_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LRTBaseComponent_Example-umbrella.h"; sourceTree = "<group>"; };
 		D4F675A9DCEF9F2AD6FAD3D4CB93877D /* Pods-LRTBaseComponent_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LRTBaseComponent_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D8BFB595DD5AFC693C0EEBDF99BCE662 /* LRTBaseComponent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LRTBaseComponent.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DE8AE761A6233169744AE7BAC2257114 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		DECD443010BB655D9124DF4A20975255 /* LRTBaseComponent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LRTBaseComponent-Info.plist"; sourceTree = "<group>"; };
+		E2752459F4DEB6F9165832D4248CF01A /* LRTBaseComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRTBaseComponent.debug.xcconfig; sourceTree = "<group>"; };
+		E45490DAED0DFED6CECCCF1877BEA448 /* RegularExpUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RegularExpUtil.swift; sourceTree = "<group>"; };
+		EA406B9228C074F47AC960CC8B4040AB /* ResourceBundle-LRTBaseComponent-LRTBaseComponent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LRTBaseComponent-LRTBaseComponent-Info.plist"; sourceTree = "<group>"; };
 		F1A0E508679ED342B4AEDF1866C001EB /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
 		FC7C54894F0D982511B53767CE31EBF1 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		FFF550D30103F9405186BDDEFD059011 /* LRTBaseComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LRTBaseComponent-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		206B8FFF1EC62FE21C6BF72FBBBEA50F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372FDB164CC6F09A825C5ED6E1BA76B5 /* CoreGraphics.framework in Frameworks */,
+				F8799691B7C04EDE895031AC787DE777 /* Foundation.framework in Frameworks */,
+				F534D8C948D7F829D0D74D55FE381086 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		481DD21E4F36C0036D885B57AB93D1EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4E0451C6DBE32E7888295C14DAD57B27 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -122,22 +157,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC79DE832022649BF7A5C25540DB75C6 /* Frameworks */ = {
+		B01F0DF73F87405B5CF33D34B5475C9E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55CEF72C35AD61465A888C751CBAB144 /* CoreGraphics.framework in Frameworks */,
-				80AE7748E24D8A00EF7966CF787B5E95 /* Foundation.framework in Frameworks */,
-				FFD572451BA5B37D22501BD5926B9305 /* QuartzCore.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CFC8FA6A6C3C598E248EF8C9F41415A8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				34E0F4060BE04D6D63BE98373E5B9C60 /* Foundation.framework in Frameworks */,
-				9AAC7C1DBB8597B8EA3CDE6EC9253E20 /* MBProgressHUD.framework in Frameworks */,
+				D99B3A543071B30F34BB216C6D9B3EE6 /* Foundation.framework in Frameworks */,
+				927361600C7EB10DCA350ABAA4E0E254 /* MBProgressHUD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,23 +177,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		052FCF1185F5CF0F2AFE567A10E90DD3 /* Development Pods */ = {
+		06BF795CFABB44A7BB877BE7029A187E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2FAD51D39F1E7E7EF82A354E109D00F3 /* LRTBaseComponent */,
+				3701312CDCC9384B18E0DFE398C76E2F /* LRTBaseComponent */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		0B268555DB25595C44CCE18FAD938A36 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				034D5C9BE830D709B6FEF801126041D1 /* LRTBaseComponent.framework */,
-				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */,
-				7919705C24E17A721758425C212E51A1 /* Pods_LRTBaseComponent_Example.framework */,
-				915A6BBD49CA597EE71B005F34EA5CC9 /* Pods_LRTBaseComponent_Tests.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		1800169E634CFC2BC3C883895EFDBB7D /* Pods-LRTBaseComponent_Example */ = {
@@ -188,29 +202,27 @@
 			path = "Target Support Files/Pods-LRTBaseComponent_Example";
 			sourceTree = "<group>";
 		};
-		1E12169D05E5581B3FDFB0CB87106FF5 /* Support Files */ = {
+		24DEF038CAB4317337CA2D627CF89D7B /* resources */ = {
 			isa = PBXGroup;
 			children = (
-				2B317BAACF04708A301A0FC9282636AA /* LRTBaseComponent.modulemap */,
-				AEC7B99FD8A1255231DB48CA3260358E /* LRTBaseComponent-dummy.m */,
-				15A664004DDF9C4E5FC3516E9851EF96 /* LRTBaseComponent-Info.plist */,
-				932FA2BAAB44F890ABB939F00D11E453 /* LRTBaseComponent-prefix.pch */,
-				3EBC0A35FF3020F3217A051566F5EC5A /* LRTBaseComponent-umbrella.h */,
-				6DB01D22EAADEDFAB6F82437BD9DC35F /* LRTBaseComponent.debug.xcconfig */,
-				8DA7696C9AFECBD9CB4475DEF2918AC5 /* LRTBaseComponent.release.xcconfig */,
+				2D0673598A7E5DF7CA62C77BC9EF5284 /* Assets.xcassets */,
+				BAD823CA9D1BFEBB99052D6ACAD6F578 /* icon_refund.png */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LRTBaseComponent";
+			name = resources;
+			path = LRTBaseComponent/Assets/resources;
 			sourceTree = "<group>";
 		};
-		2FAD51D39F1E7E7EF82A354E109D00F3 /* LRTBaseComponent */ = {
+		3701312CDCC9384B18E0DFE398C76E2F /* LRTBaseComponent */ = {
 			isa = PBXGroup;
 			children = (
-				D42B5398140AB4B5E6EEF2AD487C92DF /* HUD */,
-				BB9EFE61FC4E023E81069AE0C66DABDD /* kf */,
-				D2B89148D25AFC79489EE88CA65E4880 /* Pod */,
-				429DCF3C3D1DC63425BD984010FA9FA2 /* RegularExpression */,
-				1E12169D05E5581B3FDFB0CB87106FF5 /* Support Files */,
+				195EB44776B75436B352E35CE75867DB /* resources */,
+				7F566DBA258ADD485680874F0B6B8028 /* HUD */,
+				9F6A9B9F0AB6750F7DD7CE114FE49E3C /* kf */,
+				E29DE1FD1BFDF3953D3AFCDC5F8D4F67 /* Pod */,
+				888063C492E6FECFA2D221B5105072CA /* RegularExpression */,
+				24DEF038CAB4317337CA2D627CF89D7B /* resources */,
+				FBE2F50F256071309D2FA640769AC8F2 /* Support Files */,
+				4B33FCD0EA5DA736C357EDF75DF1515A /* swiftgen */,
 			);
 			name = LRTBaseComponent;
 			path = ../..;
@@ -224,13 +236,13 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		429DCF3C3D1DC63425BD984010FA9FA2 /* RegularExpression */ = {
+		4B33FCD0EA5DA736C357EDF75DF1515A /* swiftgen */ = {
 			isa = PBXGroup;
 			children = (
-				C10E4F5DFA969D6BCF483FC686B525CF /* RegularExpUtil.swift */,
+				6CB4558547CBAEAD442885832D9D8527 /* Assets+Generated.swift */,
 			);
-			name = RegularExpression;
-			path = LRTBaseComponent/Classes/RegularExpression;
+			name = swiftgen;
+			path = LRTBaseComponent/Classes/swiftgen;
 			sourceTree = "<group>";
 		};
 		7DA15A24060A7C02AA2887C73FB2018D /* MBProgressHUD */ = {
@@ -240,8 +252,35 @@
 				67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */,
 				C86A493F744575B77BC85AB9B143DAC2 /* Support Files */,
 			);
-			name = MBProgressHUD;
 			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		7F566DBA258ADD485680874F0B6B8028 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				71A4D6697DD9DFF68A20BCCD80DAD1A2 /* GlobalProgressHUD.swift */,
+			);
+			name = HUD;
+			path = LRTBaseComponent/Classes/HUD;
+			sourceTree = "<group>";
+		};
+		888063C492E6FECFA2D221B5105072CA /* RegularExpression */ = {
+			isa = PBXGroup;
+			children = (
+				E45490DAED0DFED6CECCCF1877BEA448 /* RegularExpUtil.swift */,
+			);
+			name = RegularExpression;
+			path = LRTBaseComponent/Classes/RegularExpression;
+			sourceTree = "<group>";
+		};
+		9F6A9B9F0AB6750F7DD7CE114FE49E3C /* kf */ = {
+			isa = PBXGroup;
+			children = (
+				608A920C949DCDAC5F8D6A82737BE325 /* KFWrapper.swift */,
+				493F0227F1BCC3164440EAD618250911 /* UIButton+kf.swift */,
+			);
+			name = kf;
+			path = LRTBaseComponent/Classes/kf;
 			sourceTree = "<group>";
 		};
 		A33EA4BEA5DAAA9AD96E666E1EA15E3F /* iOS */ = {
@@ -270,14 +309,16 @@
 			path = "Target Support Files/Pods-LRTBaseComponent_Tests";
 			sourceTree = "<group>";
 		};
-		BB9EFE61FC4E023E81069AE0C66DABDD /* kf */ = {
+		C4352E047ECC229B90AB920E1841C551 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				219107CBFD48CB106BDE250A33756D54 /* KFWrapper.swift */,
-				5CF0A46E140147CD948C3F30504E7FDA /* UIButton+kf.swift */,
+				BB25FBE2CDA8495F63624192C95A94DF /* LRTBaseComponent.bundle */,
+				034D5C9BE830D709B6FEF801126041D1 /* LRTBaseComponent.framework */,
+				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */,
+				7919705C24E17A721758425C212E51A1 /* Pods_LRTBaseComponent_Example.framework */,
+				915A6BBD49CA597EE71B005F34EA5CC9 /* Pods_LRTBaseComponent_Tests.framework */,
 			);
-			name = kf;
-			path = LRTBaseComponent/Classes/kf;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		C86A493F744575B77BC85AB9B143DAC2 /* Support Files */ = {
@@ -308,31 +349,12 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				052FCF1185F5CF0F2AFE567A10E90DD3 /* Development Pods */,
+				06BF795CFABB44A7BB877BE7029A187E /* Development Pods */,
 				CD496C11F12A36A2E3C576FA77ABD664 /* Frameworks */,
 				3F242479102E24C5847AB040CB8095A8 /* Pods */,
-				0B268555DB25595C44CCE18FAD938A36 /* Products */,
+				C4352E047ECC229B90AB920E1841C551 /* Products */,
 				DB4761917D44C2103CFDD0860376EB37 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D2B89148D25AFC79489EE88CA65E4880 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				12C02234E86B27ADE4AD63EF6CF5CE09 /* LICENSE */,
-				4E1FF659FFA424231DE397C829CFA51C /* LRTBaseComponent.podspec */,
-				1A4DEBCC89D67EE1E29AAC7B80C0AA68 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		D42B5398140AB4B5E6EEF2AD487C92DF /* HUD */ = {
-			isa = PBXGroup;
-			children = (
-				0ADBFCCA44844A1B102EFE633EA0164A /* GlobalProgressHUD.swift */,
-			);
-			name = HUD;
-			path = LRTBaseComponent/Classes/HUD;
 			sourceTree = "<group>";
 		};
 		DB4761917D44C2103CFDD0860376EB37 /* Targets Support Files */ = {
@@ -344,15 +366,40 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		E29DE1FD1BFDF3953D3AFCDC5F8D4F67 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7E89A5476FF639D026F193794D495E9A /* LICENSE */,
+				D8BFB595DD5AFC693C0EEBDF99BCE662 /* LRTBaseComponent.podspec */,
+				2023B687B3793C59413C512B3E5CD9A6 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FBE2F50F256071309D2FA640769AC8F2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F664D02283E14804EC089FF0885BDB3 /* LRTBaseComponent.modulemap */,
+				FFF550D30103F9405186BDDEFD059011 /* LRTBaseComponent-dummy.m */,
+				DECD443010BB655D9124DF4A20975255 /* LRTBaseComponent-Info.plist */,
+				C67BAF891A87287248F746B815782D79 /* LRTBaseComponent-prefix.pch */,
+				544B6B99C9C8DCF3CA18FB58F6740AD2 /* LRTBaseComponent-umbrella.h */,
+				E2752459F4DEB6F9165832D4248CF01A /* LRTBaseComponent.debug.xcconfig */,
+				1D843EB00270C1A6372BC60DB201FDE0 /* LRTBaseComponent.release.xcconfig */,
+				EA406B9228C074F47AC960CC8B4040AB /* ResourceBundle-LRTBaseComponent-LRTBaseComponent-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LRTBaseComponent";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		26197AC0E732086DA24B9B7EFDE6321F /* Headers */ = {
+		432F9715C28F2E25863EF515BDBCDA64 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75FC89D2FD6BBA52384549554F45927E /* MBProgressHUD-umbrella.h in Headers */,
-				070E21921BDFA01AEC76C27F2C6C6376 /* MBProgressHUD.h in Headers */,
+				62D4DDE768157A964BBE83ED41FAC767 /* LRTBaseComponent-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,14 +411,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6EA8A12079787FE0D5DFA5F3F3ACA176 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6BC49B6E7E4819B44D505C7F4DAE579B /* LRTBaseComponent-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7C2E8EE671B48F9198580B4FDEEA5DCA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -380,22 +419,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EA6A665E1A8612DDC0C07485B935612E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30785F5EB447FDFCB5EEE9872647C9C4 /* MBProgressHUD-umbrella.h in Headers */,
+				E0BE16561EF87F5C8C430DB3BD546BFF /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		04F5D6EA2E516E5F8A400BEFB7622DEC /* LRTBaseComponent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 213B1D3A76D95BEC063367EE4FFAEC7C /* Build configuration list for PBXNativeTarget "LRTBaseComponent" */;
+			buildConfigurationList = 5B4F2F50DF3D2637BCFF2E1FD9FE7598 /* Build configuration list for PBXNativeTarget "LRTBaseComponent" */;
 			buildPhases = (
-				6EA8A12079787FE0D5DFA5F3F3ACA176 /* Headers */,
-				6BD0C39492C47567D251811AC2BA9FF3 /* Sources */,
-				CFC8FA6A6C3C598E248EF8C9F41415A8 /* Frameworks */,
-				FFF33730BCB41341A7C28B0E9FE7ED6C /* Resources */,
+				432F9715C28F2E25863EF515BDBCDA64 /* Headers */,
+				3341AB9FCED94C6C02FD415A9083F5EC /* Sources */,
+				B01F0DF73F87405B5CF33D34B5475C9E /* Frameworks */,
+				565DF501DFCCA0F94D619FB5A2346013 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B842FB5760F52ADAD54EBF3E4493D661 /* PBXTargetDependency */,
+				92D14F321786328F76070BF75EEEA8B5 /* PBXTargetDependency */,
+				2B7AABF91CA7FF51FC7827559C0B6BBE /* PBXTargetDependency */,
 			);
 			name = LRTBaseComponent;
 			productName = LRTBaseComponent;
@@ -414,7 +463,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				473D5CE09AEF77AF866808E90AE1D80D /* PBXTargetDependency */,
+				2602DFA64DDC09E78E9D1D980FD86527 /* PBXTargetDependency */,
 			);
 			name = "Pods-LRTBaseComponent_Tests";
 			productName = "Pods-LRTBaseComponent_Tests";
@@ -423,12 +472,12 @@
 		};
 		82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C57CED1C370F668BF33FE9902F6E34B /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildConfigurationList = 3B158034053C821BD11847924CA062B7 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
 			buildPhases = (
-				26197AC0E732086DA24B9B7EFDE6321F /* Headers */,
-				9DE1B0A9CD10E83285C8B60682794D3B /* Sources */,
-				CC79DE832022649BF7A5C25540DB75C6 /* Frameworks */,
-				E5DF2EBD7F82EA63557E30AF681745FF /* Resources */,
+				EA6A665E1A8612DDC0C07485B935612E /* Headers */,
+				494324FA52AAE1E3DDE99C911D6B39CF /* Sources */,
+				206B8FFF1EC62FE21C6BF72FBBBEA50F /* Frameworks */,
+				12519F24074EE41C913BEE6CDA9AA1F4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -438,6 +487,23 @@
 			productName = MBProgressHUD;
 			productReference = 8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		94268AD089AFABF32315F259E5B1203E /* LRTBaseComponent-LRTBaseComponent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 638F00A2B6080A978B7F730083B9E5FF /* Build configuration list for PBXNativeTarget "LRTBaseComponent-LRTBaseComponent" */;
+			buildPhases = (
+				478063AB4E3D63E337DFCACD5483F23A /* Sources */,
+				481DD21E4F36C0036D885B57AB93D1EE /* Frameworks */,
+				8A227C25D40274A97D1AC231E375AC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LRTBaseComponent-LRTBaseComponent";
+			productName = "LRTBaseComponent-LRTBaseComponent";
+			productReference = BB25FBE2CDA8495F63624192C95A94DF /* LRTBaseComponent.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		A91636F4999D993651DF2FCC9690B0E1 /* Pods-LRTBaseComponent_Example */ = {
 			isa = PBXNativeTarget;
@@ -451,8 +517,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				E7F267F4E865CAB4331DF9DC57D7AC9A /* PBXTargetDependency */,
-				BD77AB25DEEE03CA6290ED39EB619ED8 /* PBXTargetDependency */,
+				4B76E46A1A0458E3B07FBC6EDADC6E97 /* PBXTargetDependency */,
+				57C9BCB75563B3AC886FA45A16AE3C32 /* PBXTargetDependency */,
 			);
 			name = "Pods-LRTBaseComponent_Example";
 			productName = "Pods-LRTBaseComponent_Example";
@@ -466,7 +532,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1330;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -477,11 +543,12 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 0B268555DB25595C44CCE18FAD938A36 /* Products */;
+			productRefGroup = C4352E047ECC229B90AB920E1841C551 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				04F5D6EA2E516E5F8A400BEFB7622DEC /* LRTBaseComponent */,
+				94268AD089AFABF32315F259E5B1203E /* LRTBaseComponent-LRTBaseComponent */,
 				82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */,
 				A91636F4999D993651DF2FCC9690B0E1 /* Pods-LRTBaseComponent_Example */,
 				168E8BCA14324D591055D7E4C6B28144 /* Pods-LRTBaseComponent_Tests */,
@@ -490,14 +557,32 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AB8A61A8EAD3ABC664D0733D3A6DE8FE /* Resources */ = {
+		12519F24074EE41C913BEE6CDA9AA1F4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5DF2EBD7F82EA63557E30AF681745FF /* Resources */ = {
+		565DF501DFCCA0F94D619FB5A2346013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F49F1EF7D6338AF240B9045FF73189 /* LRTBaseComponent.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A227C25D40274A97D1AC231E375AC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D39E571F542FD1AC03369199A0AD77B /* Assets.xcassets in Resources */,
+				CA69E312AAAB89FF39AA9AC71C2CA54F /* icon_refund.png in Resources */,
+				EAB78FE795E2D8B09B7AB599A74A2EE8 /* resources in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB8A61A8EAD3ABC664D0733D3A6DE8FE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -511,25 +596,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FFF33730BCB41341A7C28B0E9FE7ED6C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3341AB9FCED94C6C02FD415A9083F5EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A62EC1CD3560C0242F27C146D976EA8 /* Assets+Generated.swift in Sources */,
+				E3AFB4F29A36CB22E0603F53095F5F95 /* GlobalProgressHUD.swift in Sources */,
+				D9B992EEB18258312EAFFC7DFA8C98BD /* KFWrapper.swift in Sources */,
+				AF49DFCE80193B406A2EA65AB27B87C1 /* LRTBaseComponent-dummy.m in Sources */,
+				C14F18708A05BB2DDFC3D8978CB0E07A /* RegularExpUtil.swift in Sources */,
+				9A2BCEFFA0C6662F9A4E0E700EDAC3A2 /* UIButton+kf.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478063AB4E3D63E337DFCACD5483F23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		6BD0C39492C47567D251811AC2BA9FF3 /* Sources */ = {
+		494324FA52AAE1E3DDE99C911D6B39CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F1C553846BF75224BA0C4E56359E8A4 /* GlobalProgressHUD.swift in Sources */,
-				EF53B3412CD1C82A45D3E6DA4F05B548 /* KFWrapper.swift in Sources */,
-				F57AC36AC761309E5BF3A9D2D04D87AF /* LRTBaseComponent-dummy.m in Sources */,
-				21C600278DFBAC170C92FA71391EE799 /* RegularExpUtil.swift in Sources */,
-				E380B0EEF026D78A024E9E7564EB3B3D /* UIButton+kf.swift in Sources */,
+				F2675DBEFAEF0BFCF346F697F0CE5CC1 /* MBProgressHUD-dummy.m in Sources */,
+				9050EC29735A5E535234BF7B1CDEEC82 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,15 +633,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6E0DDAA8CEE2FD24BC40257666B6312 /* Pods-LRTBaseComponent_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9DE1B0A9CD10E83285C8B60682794D3B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8A7FDDCCF50B02CE0105B52B4CA29FD7 /* MBProgressHUD-dummy.m in Sources */,
-				2890CD8B4C9CE55B03276726898A9854 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,63 +647,39 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		473D5CE09AEF77AF866808E90AE1D80D /* PBXTargetDependency */ = {
+		2602DFA64DDC09E78E9D1D980FD86527 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LRTBaseComponent_Example";
 			target = A91636F4999D993651DF2FCC9690B0E1 /* Pods-LRTBaseComponent_Example */;
-			targetProxy = C1E2A3781F27560030744C24BE1D1B12 /* PBXContainerItemProxy */;
+			targetProxy = 09E2C0A88DDFD960ACA98ECC6AE2AFAB /* PBXContainerItemProxy */;
 		};
-		B842FB5760F52ADAD54EBF3E4493D661 /* PBXTargetDependency */ = {
+		2B7AABF91CA7FF51FC7827559C0B6BBE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MBProgressHUD;
 			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
-			targetProxy = A24F25D8DCB10C9766A6595BB37EF79F /* PBXContainerItemProxy */;
+			targetProxy = 45C1F0BAB463CD06E1622D05FDA88F5D /* PBXContainerItemProxy */;
 		};
-		BD77AB25DEEE03CA6290ED39EB619ED8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MBProgressHUD;
-			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
-			targetProxy = B313F2BA795DCB63504DDBD4DE1FF9D6 /* PBXContainerItemProxy */;
-		};
-		E7F267F4E865CAB4331DF9DC57D7AC9A /* PBXTargetDependency */ = {
+		4B76E46A1A0458E3B07FBC6EDADC6E97 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LRTBaseComponent;
 			target = 04F5D6EA2E516E5F8A400BEFB7622DEC /* LRTBaseComponent */;
-			targetProxy = E5B8DB5A18B9EA45D168578A44B5B0D0 /* PBXContainerItemProxy */;
+			targetProxy = 8EA37EA07D1A7CCC2D7A6D008441643E /* PBXContainerItemProxy */;
+		};
+		57C9BCB75563B3AC886FA45A16AE3C32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = 36032B39C6EB2BCCD95E27A74048103E /* PBXContainerItemProxy */;
+		};
+		92D14F321786328F76070BF75EEEA8B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LRTBaseComponent-LRTBaseComponent";
+			target = 94268AD089AFABF32315F259E5B1203E /* LRTBaseComponent-LRTBaseComponent */;
+			targetProxy = 6EAB44FDF6B69094D148438C445D9AC6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05960B589B7521B8EA99C9AD1A96F191 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6DB01D22EAADEDFAB6F82437BD9DC35F /* LRTBaseComponent.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LRTBaseComponent/LRTBaseComponent-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LRTBaseComponent/LRTBaseComponent-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LRTBaseComponent/LRTBaseComponent.modulemap";
-				PRODUCT_MODULE_NAME = LRTBaseComponent;
-				PRODUCT_NAME = LRTBaseComponent;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -671,7 +733,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -683,6 +745,114 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		27B10DB7D8B6F808FE6519B8ECDAED5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D843EB00270C1A6372BC60DB201FDE0 /* LRTBaseComponent.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LRTBaseComponent/LRTBaseComponent-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LRTBaseComponent/LRTBaseComponent-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LRTBaseComponent/LRTBaseComponent.modulemap";
+				PRODUCT_MODULE_NAME = LRTBaseComponent;
+				PRODUCT_NAME = LRTBaseComponent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2D46CF422205B09DA996DCD75050CF2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E221A5AAC45302AF396416395265FFD /* MBProgressHUD.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		55D6BC14847B90C0C07695BE5C29F809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D843EB00270C1A6372BC60DB201FDE0 /* LRTBaseComponent.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LRTBaseComponent";
+				IBSC_MODULE = LRTBaseComponent;
+				INFOPLIST_FILE = "Target Support Files/LRTBaseComponent/ResourceBundle-LRTBaseComponent-LRTBaseComponent-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = LRTBaseComponent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		5CF685956C7D16F74A1CA6873A3540A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CEB62E30C5BAB8D4A2A435A4D4DA33A /* MBProgressHUD.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		5D97A9E8BEE852400DC61F3C56C28294 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -699,7 +869,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-LRTBaseComponent_Example/Pods-LRTBaseComponent_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LRTBaseComponent_Example/Pods-LRTBaseComponent_Example.modulemap";
@@ -716,9 +886,9 @@
 			};
 			name = Debug;
 		};
-		6374AAF9C4711F25DCE3A3FCD6C8BB31 /* Release */ = {
+		8B87FB6553ED5E4CC9A7937B56DB3619 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CEB62E30C5BAB8D4A2A435A4D4DA33A /* MBProgressHUD.release.xcconfig */;
+			baseConfigurationReference = E2752459F4DEB6F9165832D4248CF01A /* LRTBaseComponent.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -728,45 +898,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/LRTBaseComponent/LRTBaseComponent-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LRTBaseComponent/LRTBaseComponent-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
-				PRODUCT_MODULE_NAME = MBProgressHUD;
-				PRODUCT_NAME = MBProgressHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A64F7A102EE933477FADF0A6FF5ED794 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E221A5AAC45302AF396416395265FFD /* MBProgressHUD.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
-				PRODUCT_MODULE_NAME = MBProgressHUD;
-				PRODUCT_NAME = MBProgressHUD;
+				MODULEMAP_FILE = "Target Support Files/LRTBaseComponent/LRTBaseComponent.modulemap";
+				PRODUCT_MODULE_NAME = LRTBaseComponent;
+				PRODUCT_NAME = LRTBaseComponent;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -792,7 +931,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-LRTBaseComponent_Example/Pods-LRTBaseComponent_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LRTBaseComponent_Example/Pods-LRTBaseComponent_Example.modulemap";
@@ -825,7 +964,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-LRTBaseComponent_Tests/Pods-LRTBaseComponent_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LRTBaseComponent_Tests/Pods-LRTBaseComponent_Tests.modulemap";
@@ -893,48 +1032,32 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		E26E1D3D84BE479F38283B2D2FA2A4C4 /* Release */ = {
+		FAA5CE960226A3D3FCCDCDB6BB805A1C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DA7696C9AFECBD9CB4475DEF2918AC5 /* LRTBaseComponent.release.xcconfig */;
+			baseConfigurationReference = E2752459F4DEB6F9165832D4248CF01A /* LRTBaseComponent.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LRTBaseComponent/LRTBaseComponent-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LRTBaseComponent/LRTBaseComponent-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LRTBaseComponent/LRTBaseComponent.modulemap";
-				PRODUCT_MODULE_NAME = LRTBaseComponent;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LRTBaseComponent";
+				IBSC_MODULE = LRTBaseComponent;
+				INFOPLIST_FILE = "Target Support Files/LRTBaseComponent/ResourceBundle-LRTBaseComponent-LRTBaseComponent-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = LRTBaseComponent;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
 		FE76408436748C4157B41EFEA1B7693A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -951,7 +1074,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-LRTBaseComponent_Tests/Pods-LRTBaseComponent_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LRTBaseComponent_Tests/Pods-LRTBaseComponent_Tests.modulemap";
@@ -971,11 +1094,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		213B1D3A76D95BEC063367EE4FFAEC7C /* Build configuration list for PBXNativeTarget "LRTBaseComponent" */ = {
+		3B158034053C821BD11847924CA062B7 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05960B589B7521B8EA99C9AD1A96F191 /* Debug */,
-				E26E1D3D84BE479F38283B2D2FA2A4C4 /* Release */,
+				2D46CF422205B09DA996DCD75050CF2E /* Debug */,
+				5CF685956C7D16F74A1CA6873A3540A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -998,11 +1121,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C57CED1C370F668BF33FE9902F6E34B /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+		5B4F2F50DF3D2637BCFF2E1FD9FE7598 /* Build configuration list for PBXNativeTarget "LRTBaseComponent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A64F7A102EE933477FADF0A6FF5ED794 /* Debug */,
-				6374AAF9C4711F25DCE3A3FCD6C8BB31 /* Release */,
+				8B87FB6553ED5E4CC9A7937B56DB3619 /* Debug */,
+				27B10DB7D8B6F808FE6519B8ECDAED5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		638F00A2B6080A978B7F730083B9E5FF /* Build configuration list for PBXNativeTarget "LRTBaseComponent-LRTBaseComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA5CE960226A3D3FCCDCDB6BB805A1C /* Debug */,
+				55D6BC14847B90C0C07695BE5C29F809 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

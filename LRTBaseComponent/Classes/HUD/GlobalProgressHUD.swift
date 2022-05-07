@@ -94,7 +94,7 @@ public class GlobalProgressHUD {
         let hud = shareInstance.getProgressHUD()
         shareInstance.hudStyle1()
         hud?.mode = .customView
-        let successImageView = UIImageView.init(image: UIImage.init(named: "Add-Success"))
+        let successImageView = UIImageView.init(image: Asset.iconSuccess.image)
         hud?.customView = successImageView
         hud?.label.text = NSLocalizedString(title, comment: "")
         hud?.detailsLabel.text = NSLocalizedString(detail, comment: "")
