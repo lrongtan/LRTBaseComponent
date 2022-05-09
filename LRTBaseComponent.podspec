@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LRTBaseComponent'
-  s.version          = '0.4.0'
+  s.version          = '0.5.0'
   s.summary          = 'app 基础组件'
 
 # This description is used to generate tags and improve search results.
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = "app 基础组件 "
+  s.description      = 'app 基础组件 测试'
 
   s.homepage         = 'https://github.com/lrongtan/LRTBaseComponent'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
